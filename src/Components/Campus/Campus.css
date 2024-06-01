@@ -1,0 +1,50 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img{
+    width: 23%;
+    border-radius: 5px;
+}
+
+.campus-button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.campus-btn{
+    background: #b63838;
+  color: rgb(131, 223, 192);
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+.campus-button img{
+    margin-left: 5px;
+    width: 20px;
+    height: 10px;
+   
+
+}
+
+/* media query */
+@media (max-width:800px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width:48%;
+        margin-bottom: 25px;
+
+    }
+}
